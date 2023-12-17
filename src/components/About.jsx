@@ -16,7 +16,7 @@ const About = () => {
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam vitae, iure quasi sapiente voluptatibus assumenda maxime fuga sunt sit provident, harum optio rerum commodi delectus inventore nam. Saepe nam quidem, fugit voluptate esse nobis quae excepturi mollitia unde ea voluptates soluta expedita? Amet pariatur deleniti quod illum asperiores totam est.
                 </p>
-                <Link to='contact'>
+                <Link to='contact' spy={true} smooth={true} duration={500}>
                     <Button title='Contact Us'/>
                 </Link>
             </div> 
